@@ -12,7 +12,7 @@ import com.tyss.bank.genericutility.WebDriverUtility;
 public class Sample extends BaseClass{
 	@Test
 	public void run() {
-		Reporter.log("Test case is running");
+		Reporter.log("Test case is running...!");
 		driver.findElement(By.partialLinkText("BOOKS")).click();
 		WebElement sortByDropdown = driver.findElement(By.id("products-orderby"));
 		WebDriverUtility webdriverLib=new WebDriverUtility();
